@@ -9,13 +9,13 @@
 <a-scene embedded arjs="debugUIEnabled:false;trackingMethod:best;" vr-mode-ui="enabled: false">
     <!-- オブジェクトファイルとマテリアルファイルを読み込む -->
     <a-assets>
-        <a-asset-item id="Chandelure-obj" src="Chandelure_forAR/Chandelure_forAR.obj"></a-asset-item>
-        <a-asset-item id="Chandelure-mtl" src="Chandelure_forAR/Chandelure_forAR.mtl"></a-asset-item>
+        <a-asset-item id="Wani-obj" src="Wani_forAR/Wani_forAR.obj"></a-asset-item>
+        <a-asset-item id="Wani-mtl" src="Wani_forAR/Wani_forAR.mtl"></a-asset-item>
     </a-assets>
 　　　　　　　　<!-- こっからARの世界。マーカー上になにを展開するかを書く -->
     <a-marker preset="hiro">
-        <a-obj-model id="Chandelure" src="#Chandelure-obj" mtl="#Chandelure-mtl" position="0 0 0" scale="0.5 0.5 0.5" rotation="0 0 0"></a-obj-model>
-        <a-text value="Chandelure!！！" position="0 1.3 0" align="center"></a-text>
+        <a-obj-model id="Wani" src="#Wani-obj" mtl="#Wani-mtl" position="0 0 0" scale="0.5 0.5 0.5" rotation="0 0 0"></a-obj-model>
+        <a-text value="Hello!！！" position="0 1.3 0" align="center"></a-text>
     </a-marker>
     <!-- arなのでこんな感じでカメラが必要らしい。 -->
     <a-entity camera></a-entity>
